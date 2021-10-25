@@ -1,19 +1,22 @@
-
-import React from 'react';
-import BillboardRow from '../components/billboard-row/BillboardRow';
-import RowContainer from './row-container/RowContainer';
-
+import React from "react";
+import BillboardRow from "../components/billboard-row/BillboardRow";
+import RowContainer from "./row-container/RowContainer";
+import BillboardRow2 from "../components/billboard-row2/BillboardRow2";
 
 function App() {
   return (
     <>
-      <div/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <BillboardRow/>
-      <RowContainer />
+        <BillboardRow />
+        <RowContainer />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <BillboardRow2 />
+        
     </>
   );
 }
