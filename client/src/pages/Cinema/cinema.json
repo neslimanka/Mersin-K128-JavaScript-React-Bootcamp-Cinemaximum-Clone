@@ -1,0 +1,87 @@
+{
+    "Cinema":[
+
+        {
+            "name":"Cinemaximum 14 Burda",
+            "address":"14 BURDA,Paşaköy Mah. D-100 Karayolu Cad. No:8-16,14100,Bolu"
+        },
+        {
+            "name":"Cinemaximum 17 Burda",
+            "address":"Barbaros Mah.Atatürk Cad. No:207/Çanakkale"
+        },
+        {
+            "name":"Cinemaximum 41 Burda",
+            "address":"41 Burda,Sanayi Mah. Ömer Türkçakal Bulvarı No:7,41040 İzmit,Kocaeli"
+        },
+        {
+            "name":"Cinemaximum A Plus",
+            "address":"Ataköy A Plus, Adnan Kahveci Bulvarı 6.Kısım, Ataköy - İstanbul"
+        },
+        {
+            "name":"Cinemaximum Acarkent Coliseum",
+            "address":"Acarkent Sitesi 3. Kısım, 9. Cadde No:2, 34820 Beykoz/İstanbul"
+        },
+        {
+            "name":"Cinemaximum Adıyaman Park",
+            "address":"Yeni Sanayi Mahallesi, 02040 Adıyaman Merkez/Adıyaman"
+        },
+        {
+            "name":"Cinemaximum Antalya Migros",
+            "address":"Migros AVM. Meltem Mah. 100. Yıl Bulvarı. Antalya 07070"
+        },
+    
+        {
+            "name":"Cinemaximum Axis Kağıthane AVM",
+            "address":"Axis Alışveriş Merkezi, Merkez Mah. Cendere Cad. No:28 Kat:3 No:120 Kağıthane"
+        },
+        {
+            "name":"Cinemaximum Balıkesir Yaylada",
+            "address":"Paşa Alanı Mahallesi, Merkez, Bursa Yolu 1. Km, 10020 Karesi/Balıkesir"
+        },{
+            "name":"Cinemaximum Capacity",
+            "address":"Zeytinlik Mah. Fişekhane Cad. Bakırköy 34140"
+        },
+    
+        {
+            "name":"Cinemaximum Bursa Podyumpark",
+            "address":"Cumhuriyet Mah.Nilüfer Hatun Cad.No:114"
+        },
+        {
+            "name":"Cinemaximum Bursa Podyumpark",
+            "address":"Cumhuriyet Mah.Nilüfer Hatun Cad.No:114"
+        },
+        {
+            "name":"Cinemaximum Denizli SM",
+            "address":"Denizli Sanat Merkezi, Altıntop Mahallesi, 20010 Merkezefendi/ Denizli"
+        },
+        {
+            "name":"Cinemaximum Forum Aydın",
+            "address":"Aydın Forum A.V.M,Merkez Mah. Müze Bulvarı. No:1"
+        },
+        {
+            "name":"Cinemaximum Eyüp - Axis İstanbul AVM",
+            "address":"Topçular Mah., Osman Gazi Cd., 34055 Eyüp/ İstanbul"
+        },
+        {
+            "name":"Cinemaximum Erzurum MNG",
+            "address":"LALAPAŞA MAH. SOMUNOĞLU CAD.NO:83 İÇ KAPI NO:181 YAKUTİYE"
+        },
+        {
+            "name":"Cinemaximum Emaar Square Mall",
+            "address":"Ünalan Mah. Ayazma Cad No:78 Kapı No:B1-N-15 Üskürdar İSTANBUL"
+        },
+        {
+            "name":"Cinemaximum Çorum",
+            "address":"Çepni, Kerebi Gazi 1. Sk. No:7, 19040 Çorum Merkez/ÇORUM"
+        },
+        {
+            "name":"Cinemaximum Carrefour Bursa",
+            "address":"Carrefour AVM, İzmiryolu Cad. No: 55, Odunluk Mevki, Nilüfer/ Bursa"
+        },
+        {
+            "name":"Cinemaximum Capacity",
+            "address":"Zeytinlik Mah. Fişekhane Cad. Bakırköy 34140"
+        }
+    ]
+    
+}

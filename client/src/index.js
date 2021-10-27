@@ -6,6 +6,7 @@ import store from './redux/store';
 import { Provider } from 'react-redux';
 import Routes from "./routes/Routes"
 
+
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>

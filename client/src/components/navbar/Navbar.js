@@ -88,14 +88,14 @@ function Navbar() {
               >
                 Giriş
               </NavLink>
-              <NavLink
-                className={styles.link}
-                to={{ pathname: "/cgv-cinema-club/", title: "cgv-cinema-club" }}
-                exact
-                activeStyle={{ fontWeight: "bold" }}
-              >
-                CGV 
-              </NavLink>
+              <NavLink to="/" className={styles["cinemaximum-logo"]}>
+              <img
+              
+                className={styles.logo1}
+                src="https://www.cinemaximum.com.tr/Assets/Cgv/assets/images/cgv_icon.svg"
+                alt="Cinemaximum Logo"
+              />
+            </NavLink>
          
 
           </div>

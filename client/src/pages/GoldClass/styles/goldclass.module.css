@@ -1,0 +1,21 @@
+.container {
+    margin-top: 70px !important;
+    position: relative!important;
+    margin-left: 50px !important;
+    margin-right: 10px !important;
+    height:250rem;
+  }
+  .container1 {
+      margin-top: 0rem !important;
+      position: relative !important;
+      height:35rem;
+      background-image: url('../../../img/CGV.jpg') !important;
+      
+    }
+  .text {
+    
+    margin-left: 80px !important;
+    margin-right: 20px !important;
+    margin-top: 28px !important;
+  }
+  
