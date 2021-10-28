@@ -1,0 +1,30 @@
+.container {
+    margin-top: 70px !important;
+    position: relative!important;
+    margin-left: 30px !important;
+    margin-right: 10px !important;
+    height:85rem;
+  }
+  .container1 {
+      height:8rem;
+      width: 120rem;
+      background-image: url('../../../img/detail_bg.jpg') !important;
+      
+    }
+    .container2 {
+      height:8rem;
+      width: 120rem;
+      
+      
+    }
+  .text {
+    text-align: left;
+    color: white;
+    font-size:3.8rem;
+    margin-left: 12rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+  }
+
+  

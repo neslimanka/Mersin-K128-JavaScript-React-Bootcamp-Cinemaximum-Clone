@@ -2,11 +2,11 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 68px;
+    height: 65px;
     z-index: 110;
     transition: all 0.5s;
     transition-timing-function: ease-in;
-    background-image: linear-gradient(rgb(224, 222, 222), transparent);
+    background-image: linear-gradient(rgb(233, 230, 230), transparent);
   }
   
   .link,
@@ -14,9 +14,20 @@
     color: rgb(8, 8, 8);
     font-weight: lighter;
     font-size: 14px;
-    margin-left: 18px;
+    margin-left: 70px;
     cursor: pointer;
     text-decoration: none;
+  }
+  .link1{
+    color: rgb(8, 8, 8);
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 70px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(230, 74, 126);
+    border-radius: 0.5rem;
+    
   }
   
   .link:hover {
@@ -73,7 +84,17 @@
   }
   .logo1 {
     margin-top:0px;
-    width: 45px;
+    width: 65px;
+    object-fit: contain;
+  }
+  .logo2 {
+    margin-top:0px;
+    height: 68px;
+    object-fit: contain;
+  }
+  .logo3 {
+    margin-top:0px;
+    height: 48px;
     object-fit: contain;
   }
   
@@ -88,7 +109,7 @@
     height: 100%;
     justify-content: space-between;
     align-items: center;
-    margin: 0 43px 0 51px;
+    margin: 0 68px 0 50px;
   }
   
 

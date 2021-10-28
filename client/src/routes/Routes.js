@@ -8,6 +8,8 @@ import axios from '../axios/axios'
 import Cinema from '../pages/Cinema/Cinema';
 import GoldClass from '../pages/GoldClass/GoldClass';
 import Cgv from '../pages/CGV/Cgv';
+import Uyeol from '../pages/UyeOl/Uyeol';
+import CinemaClub from '../pages/CGVCinemaClub/CinemaClub';
 
 
 const Routes = () => {
@@ -27,7 +29,9 @@ const Routes = () => {
           <Route path="/" component={App} exact />
           <Route path="/cinema/" component={Cinema} exact />
           <Route path="/gold-class-salon-sizin/" component={GoldClass} exact />
-          <Route path="/cgv-arthouse//" component={Cgv} exact />
+          <Route path="/cgv-arthouse/" component={Cgv} exact />
+          <Route path="/uye-ol/" component={Uyeol} exact />
+          <Route path="/cgv-cinema-club/" component={CinemaClub} exact />
        
      
         </Switch>

@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ImSearch } from "react-icons/im";
 import {Redirect, NavLink } from "react-router-dom";
@@ -21,7 +22,7 @@ function Navbar() {
           </div>
           <div className={styles["flex-container-menu1"]}>
           <div className={styles.links}>
-              <NavLink className={styles.link} to="/" exact>
+              <NavLink className={styles.link}  to="/" exact>
                 Menü
               </NavLink>
              
@@ -45,13 +46,18 @@ function Navbar() {
               >
                 Sinemalar
               </NavLink>
-              <NavLink
+              <NavLink 
                 className={styles.link}
                 to={{ pathname: "/gold-class-salon-sizin/", title: "gold-class-salon-sizin" }}
                 exact
                 activeStyle={{ fontWeight: "bold" }}
               >
-                Gold Class
+              <img className={styles.logo2}
+              
+              
+              src='https://www.cinemaximum.com.tr/Assets/Web/build/assets/images/gold_class_salon_sizin-black-logo.png'
+              alt="Cinemaximum Logo"
+            />
               </NavLink>
               <NavLink
                 className={styles.link}
@@ -59,13 +65,18 @@ function Navbar() {
                 exact
                 activeStyle={{ fontWeight: "bold" }}
               >
-                CGV ARTHOUSE
+                <img className={styles.logo3}
+              
+              
+              src='https://www.cinemaximum.com.tr/Assets/Web/build/assets/images/arthouse-icon.png'
+              alt="Cinemaximum Logo"
+            />
               </NavLink>
               
               <ImSearch
                 className={`${styles.icons} ${styles["search-icon"]}`}
               />
-              <Redirect className={styles.link} to="/search" />
+              
 
            
             </div>
@@ -73,22 +84,32 @@ function Navbar() {
           <div className={styles["login-container"]}>
           <div className={styles.links}>
               <NavLink
-                className={styles.link}
-                to={{ pathname: "/signup/", title: "signup" }}
+                className={styles.link1}
+                to={{ pathname: "/uye-ol/", title: "signup" }}
                 exact
-                activeStyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold"}}
+
+                
               >
                 Üye Ol
               </NavLink>
               <NavLink
                 className={styles.link}
-                to={{ pathname: "/login/", title: "login" }}
+                to={{ pathname: "/giris/", title: "login" }}
                 exact
                 activeStyle={{ fontWeight: "bold" }}
               >
                 Giriş
               </NavLink>
-              <NavLink to="/" className={styles["cinemaximum-logo"]}>
+              <NavLink
+                className={styles.link}
+                to={{  }}
+                exact
+                activeStyle={{ fontWeight: "bold" }}
+              >
+                
+              </NavLink>
+              <NavLink to="/cgv-cinema-club" className={styles["cinemaximum-logo"]}>
               <img
               
                 className={styles.logo1}
