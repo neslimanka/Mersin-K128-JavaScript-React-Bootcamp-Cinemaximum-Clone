@@ -1,115 +1,115 @@
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 65px;
-    z-index: 110;
-    transition: all 0.5s;
-    transition-timing-function: ease-in;
-    background-image: linear-gradient(rgb(233, 230, 230), transparent);
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 65px !important;
+    z-index: 110 !important;
+    transition: all 0.5s !important;
+    transition-timing-function: ease-in !important;
+    background-image: linear-gradient(rgb(233, 230, 230), transparent) !important;
   }
   
   .link,
   .login-container {
-    color: rgb(8, 8, 8);
-    font-weight: lighter;
-    font-size: 14px;
-    margin-left: 70px;
-    cursor: pointer;
-    text-decoration: none;
+    color: rgb(8, 8, 8) !important;
+    font-weight: lighter !important;
+    font-size: 14px !important;
+    margin-left: 70px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
   }
   .link1{
-    color: rgb(8, 8, 8);
-    font-weight: lighter;
-    font-size: 14px;
-    margin-left: 70px;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: rgb(230, 74, 126);
-    border-radius: 0.5rem;
+    color: rgb(8, 8, 8) !important;
+    font-weight: lighter !important;
+    font-size: 14px !important;
+    margin-left: 70px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    background-color: rgb(230, 74, 126) !important;
+    border-radius: 0.5rem !important;
     
   }
   
   .link:hover {
-    color: rgb(24, 23, 23);
-    font-weight: 'bold';
+    color: rgb(24, 23, 23) !important;
+    font-weight: 'bold' !important;
     
   }
   
   .login-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
   }
   
   .icons {
-    margin-right: 20px;
-    margin-top: 1px;
-    font-size: 22px;
-    cursor: pointer;
+    margin-right: 20px !important;
+    margin-top: 1px !important;
+    font-size: 22px !important;
+    cursor: pointer !important;
   }
   
   .search-icon {
-    position: relative;
-    font-size: 20px;
-    left: 58px;
+    position: relative !important;
+    font-size: 20px !important;
+    left: 58px !important;
   }
   
   
   .links {
-    margin-left: 25px;
-    margin-top: 5.5px;
+    margin-left: 25px !important;
+    margin-top: 5.5px !important;
   }
   
   .navbarColor {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20) !important;
   }
   
   .flex-container-logo {
-    display: flex;
+    display: flex !important;
   }
   
   .flex-container-menu {
-    display: flex;
+    display: flex !important;
   }
   .flex-container-menu1{
     
-    display: flex;
+    display: flex !important;
   
   }
   .logo {
-    margin-top: 5px;
-    width: 170px;
-    object-fit: contain;
+    margin-top: 5px !important;
+    width: 170px !important;
+    object-fit: contain !important;
   }
   .logo1 {
-    margin-top:0px;
-    width: 65px;
-    object-fit: contain;
+    margin-top:0px !important;
+    width: 65px !important;
+    object-fit: contain !important;
   }
   .logo2 {
-    margin-top:0px;
-    height: 68px;
-    object-fit: contain;
+    margin-top:0px !important;
+    height: 68px !important;
+    object-fit: contain !important;
   }
   .logo3 {
-    margin-top:0px;
-    height: 48px;
-    object-fit: contain;
+    margin-top:0px !important;
+    height: 48px !important;
+    object-fit: contain !important;
   }
   
   .cinemaximum-logo {
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   
   
   
   .flex-container {
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 68px 0 50px;
+    display: flex !important;
+    height: 100% !important;
+    justify-content: space-between !important;
+    align-items: center!important;
+    margin: 0 68px 0 50px !important;
   }
   
 

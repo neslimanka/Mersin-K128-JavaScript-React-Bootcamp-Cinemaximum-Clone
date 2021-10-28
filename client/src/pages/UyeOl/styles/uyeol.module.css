@@ -6,23 +6,23 @@
     height:85rem;
   }
   .container1 {
-      height:8rem;
-      width: 120rem;
+      height:8rem !important;
+      width: 120rem !important;
       background-image: url('../../../img/detail_bg.jpg') !important;
       
     }
     .container2 {
-      height:8rem;
-      width: 120rem;
+      height:8rem !important;
+      width: 120rem !important;
       
       
     }
   .text {
-    text-align: left;
-    color: white;
-    font-size:3.8rem;
-    margin-left: 12rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left!important;
+    color: white !important;
+    font-size:3.8rem !important;
+    margin-left: 12rem !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
     
 
   }
