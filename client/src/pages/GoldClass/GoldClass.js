@@ -1,4 +1,4 @@
-import React, { Component,useState } from "react";
+import React, { Component } from "react";
 import styles from "./styles/goldclass.module.css";
 import { Col, Divider, Row } from "antd";
 import "antd/dist/antd.css";

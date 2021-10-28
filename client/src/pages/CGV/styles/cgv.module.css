@@ -1,0 +1,21 @@
+.container {
+    margin-top: 70px !important;
+    position: relative!important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    height:250rem;
+  }
+  .container1 {
+      margin-top: 0rem !important;
+      position: relative !important;
+      height:30rem;
+      background-image: url('https://media.cinemaximum.com.tr/1440//Files/Campaigns/arthouse.jpg') !important;
+      
+    }
+  .text {
+    
+    margin-left: 80px !important;
+    margin-right: 20px !important;
+    margin-top: 28px !important;
+  }
+  
