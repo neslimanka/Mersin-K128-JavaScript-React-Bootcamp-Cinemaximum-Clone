@@ -1,7 +1,7 @@
 
 import React from "react";
 import { ImSearch } from "react-icons/im";
-import {Redirect, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import styles from "./styles/Navbar.module.css";
 
@@ -54,7 +54,7 @@ function Navbar() {
               >
               <img className={styles.logo2}
               
-              
+              style={{width:"12em"}}
               src='https://www.cinemaximum.com.tr/Assets/Web/build/assets/images/gold_class_salon_sizin-black-logo.png'
               alt="Cinemaximum Logo"
             />
@@ -65,9 +65,9 @@ function Navbar() {
                 exact
                 activeStyle={{ fontWeight: "bold" }}
               >
-                <img className={styles.logo3}
+                <img className={styles.logo1}
               
-              
+              style={{width:"4em"}}
               src='https://www.cinemaximum.com.tr/Assets/Web/build/assets/images/arthouse-icon.png'
               alt="Cinemaximum Logo"
             />
