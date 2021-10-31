@@ -1,8 +1,19 @@
 const express = require('express')
 const app = express()
 const port = 3001
+const {Client} =require('pg')
 
-const database_model = require('./databasepg')
+
+
+const database_model = new Client ({
+  host: "localhost",
+  user: "postgres",
+  port: 5432,
+  password: "Ankara14",
+  database:"postgres"
+})
+
+database_model.connect();
 
 app.use(express.json())
 app.use(function (req, res, next) {
@@ -13,7 +24,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', (req, res) => {
-  database_model.getCinema()
+  database_model.query("Select * from cinema")
   .then(response => {
     res.status(200).send(response);
   })
@@ -22,25 +33,7 @@ app.get('/', (req, res) => {
   })
 })
 
-app.post('/add-cinema', (req, res) => {
-  database_model.createCinema(req.body)
-  .then(response => {
-    res.status(200).send(response);
-  })
-  .catch(error => {
-    res.status(500).send(error);
-  })
-})
 
-app.delete('/cinema/:id', (req, res) => {
-  database_model.deleteCinema(req.params.id)
-  .then(response => {
-    res.status(200).send(response);
-  })
-  .catch(error => {
-    res.status(500).send(error);
-  })
-})
 app.listen(port, () => {
-  console.log(`App running on port ${port}.`)
+  console.log(`Server listening on port %s, Ctrl+C to stop ${port}.`)
 })
