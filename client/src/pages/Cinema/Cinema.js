@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import { connect } from 'react-redux'
+import { bindActionCreators} from "redux"
 import { Card, Col, Row, Input } from "antd";
 import styles from "./styles/cinema.module.css";
 import "antd/dist/antd.css";
 import { Menu, Dropdown,Divider } from "antd";
 import { DownOutlined } from "@ant-design/icons";
+import * as cinemaAction from "../../redux/actions/cinema-actions/cinemaAction"
 
 const menu = (
   <Menu>
@@ -32,20 +35,17 @@ const menu = (
   </Menu>
 );
 
-export default class Cinema extends Component {
-  state = { cinema: [] };
-
-  componentDidMount() {
-    this.getProducts();
+ class Cinema extends Component {
+   
+  componentDidMount(){
+      this.props.actions.getCinema()
   }
 
-  getProducts = () => {
-    let url = "http://localhost:3000/cinema";
 
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => this.setState({ cinema: data }));
-  };
+
+ 
+
+
 
   render() {
     return (
@@ -77,7 +77,7 @@ export default class Cinema extends Component {
         
         <div className={styles.container1}>
           <Row gutter={[32, 32]}  >
-            {this.state.cinema.map((item) => {
+            {this.props.cinema.map((item) => {
               return (
                 <Col span={10} style={{ width: 400,height:150 }}>
                   <Card title={item.name} className={styles.card}>
@@ -93,3 +93,19 @@ export default class Cinema extends Component {
     );
   }
 }
+function mapStateToProps(state){
+  return {
+      cinema:state.allCinemaReducer
+  }
+}
+
+function mapDispatchToProps(dispatch){
+  return{
+      actions:{
+          getCinema:bindActionCreators(cinemaAction.fetchCinema,dispatch),
+          
+      }
+  }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Cinema)

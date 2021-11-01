@@ -1,16 +1,19 @@
+
+
 const express = require("express");
 const pg_promise = require("pg-promise");
 const dotenv = require("dotenv").config();
 const app = express();
 const pgp = pg_promise();
-const port = 3000;
+const port = 5001;
 
 var db = pgp({
-  host: "localhost",
   user: "postgres",
-  port: 5432,
   password: "Ankara14",
-  database:"postgres"
+  host: "localhost",
+  port: 5432,
+  database: "postgres"
+
 });
 
 app.use(express.json());
@@ -24,6 +27,7 @@ app.get("/", async (req, res) => {
       res.send(error);
     });
 });
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
