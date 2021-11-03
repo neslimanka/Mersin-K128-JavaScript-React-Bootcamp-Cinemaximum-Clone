@@ -42,11 +42,6 @@ const menu = (
   }
 
 
-
- 
-
-
-
   render() {
     return (
       <div className={styles.container}>
@@ -95,7 +90,7 @@ const menu = (
 }
 function mapStateToProps(state){
   return {
-      cinema:state.allCinemaReducer
+      cinema:state.allcinemaReducer
   }
 }
 

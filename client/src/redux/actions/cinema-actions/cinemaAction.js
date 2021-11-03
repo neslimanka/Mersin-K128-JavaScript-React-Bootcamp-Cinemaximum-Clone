@@ -8,5 +8,5 @@ export const getCinemaSuccess=cinema =>({
 })
 
 export const fetchCinema=()=>dispatch=>
-api.getAllCinema().then(cinema=>dispatch(getCinemaSuccess(cinema)))
+api.getAllCinema().then(cinema=>dispatch(getCinemaSuccess(cinema)));
 
