@@ -17,7 +17,11 @@ var db = pgp({
 });
 
 app.use(express.json());
-// GET ALL MOVIES
+const cors = require('cors');
+app.use(cors({
+  origin: '*'
+}));
+
 app.get("/cinema", async (req, res) => {
   db.query("SELECT * FROM cinema")
     .then(function (data) {
@@ -27,6 +31,27 @@ app.get("/cinema", async (req, res) => {
       res.send(error);
     });
 });
+app.get("/vizyonda", async (req, res) => {
+  db.query("SELECT * FROM vizyonda")
+    .then(function (data) {
+      res.send(data);
+    })
+    .catch(function (error) {
+      res.send(error);
+    });
+})
+app.get("/yakinda", async (req, res) => {
+  db.query("SELECT * FROM yakinda")
+    .then(function (data) {
+      res.send(data);
+    })
+    .catch(function (error) {
+      res.send(error);
+    });
+})
+
+
+
 
 
 app.listen(port, () => {

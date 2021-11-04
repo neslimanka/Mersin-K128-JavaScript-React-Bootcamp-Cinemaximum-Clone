@@ -1,12 +1,14 @@
-import * as actionTypes from "../actionTypes";
-import * as api from "../../../util/api"
+import {FETCH_CINEMA_SUCCESS} from "../actionTypes";
 
 
 
-export const getCinemaSuccess=cinema =>({
-   type:actionTypes.FETCH_CINEMA_SUCCESS,cinema
-})
+const fetchCinemaSuccess = (cinema) => ({
+   type: FETCH_CINEMA_SUCCESS,
+   payload: cinema
+   
+ });
+ 
+ export default fetchCinemaSuccess ;
 
-export const fetchCinema=()=>dispatch=>
-api.getAllCinema().then(cinema=>dispatch(getCinemaSuccess(cinema)));
+
 

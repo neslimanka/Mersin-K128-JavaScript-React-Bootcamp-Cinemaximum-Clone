@@ -2,7 +2,6 @@ import axios from 'axios';
 import requests from './API_END_POINTS';
 import fetchAllMovies from '../redux/actions/all-movie-actions/allMoviesActions';
 
-
 import {
   fetchMoviesCollectionSuccess,
   fetchMoviesCollectionRequest,
