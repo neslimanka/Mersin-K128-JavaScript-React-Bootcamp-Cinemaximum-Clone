@@ -95,6 +95,26 @@
     align-items: center;
     margin: 0 43px 0 51px;
   }
+
+  .menu {
+    width: 100px !important; 
+  }
+  .menu1 {
+    width: 500px !important; 
+    height: 300px !important;
+    margin-left: 10em;
+    
+  }
+  .menubackground {
+    background-image:url("https://www.cinemaximum.com.tr/Assets/Cgv/assets/images/CGV_discover/cgv_section.jpg");
+  }
+  .menudiv{
+      display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 43px 0 51px;
+  }
   
 
   

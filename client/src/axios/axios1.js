@@ -1,5 +1,5 @@
 import axios from 'axios';
-import  cinemaAction from '../redux/actions/cinema-actions/cinemaAction'
+import  getCinema from '../redux/actions/cinema-actions/cinemaAction'
 import  request  from './CINEMA_API';
 import {
   fetchMoviesCollectionFailure,
@@ -8,12 +8,12 @@ import {
 
 const fetchCinemaCollection = () => dispatch => {
 
-  dispatch(cinemaAction);
+  dispatch(getCinema);
   Object.entries(request).map((key) => {
     axios.get(key[1])
     .then(response=>{
       const cinemaData=response.data.results;
-      dispatch(cinemaAction(cinemaData,key[0]));
+      dispatch(getCinema(cinemaData,key[0]));
       
     })
     .catch(error => {

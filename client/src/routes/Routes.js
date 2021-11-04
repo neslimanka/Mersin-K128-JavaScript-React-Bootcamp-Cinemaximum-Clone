@@ -5,7 +5,7 @@ import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 import App from '../container/App';
 import axios from '../axios/axios'
-import axios1 from '../axios/axios1'
+
 import Cinema from '../pages/Cinema/Cinema';
 import GoldClass from '../pages/GoldClass/GoldClass';
 import Cgv from '../pages/CGV/Cgv';
@@ -18,7 +18,7 @@ const Routes = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(axios(),axios1());
+    dispatch(axios());
   }, []);
 
   return (

@@ -49,6 +49,15 @@ app.get("/yakinda", async (req, res) => {
       res.send(error);
     });
 })
+app.get("/slider", async (req, res) => {
+  db.query("SELECT * FROM slider")
+    .then(function (data) {
+      res.send(data);
+    })
+    .catch(function (error) {
+      res.send(error);
+    });
+})
 
 
 
