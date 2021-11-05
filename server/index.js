@@ -8,11 +8,11 @@ const pgp = pg_promise();
 const port = 5001;
 
 var db = pgp({
-  user: "postgres",
-  password: "Ankara14",
-  host: "localhost",
+  user: process.env.USER,
+  password:process.env.PASSWORD,
+  host: process.env.HOST,
   port: 5432,
-  database: "postgres"
+  database: process.env.DATABASE
 
 });
 
@@ -64,5 +64,5 @@ app.get("/slider", async (req, res) => {
 
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log('Server listening on port %s, Ctrl+C to stop',` http://localhost:${port}`);
 });
